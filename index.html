@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/img/gu.ico" type="image/x-icon">
+  <title>Clube de desconto</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="stylesheet" href="./assets/css/variables.css">
+  <link rel="stylesheet" href="./assets/css/elements.css">
+  <link rel="stylesheet" href="./assets/css/classes.css">
+  <link rel="stylesheet" href="./assets/css/menu.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#home">Clube de desconto</a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#intro">Sobre</a></li>
+          <li><a href="#grid-one">Nossa missão</a></li>
+          <li><a href="#gallery">Galeria</a></li>
+          
+          <li><a href="#pricing">Faça uma doação</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Apoie nossa causa</h2>
+        <p>Sentindo a necessidade de uma sociedade mais igual para todos, a ONG Parceiros do Gu foi pensada. Com a 
+          abrangência em quase todos os campos de auxilio social. Com um diferencial muito importante.</p>
+      </div>
+      <div class="intro-img">
+        <img src="./assets/img/contato-removebg-preview.png" alt="Logo de HTML, CSS e JS.">
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Missão, Visão e Valores</h2>
+      <p>A ONG foi fundada no final do ano de 2021, onde depois de planejar fizemos o inicio desse trabalho na cidade de 
+        Campinas, onde vamos trabalhar com a redistribuição de alimentos e roupas para moradores de rua da cidade. Em um segundo 
+        passo vamos buscar entender com profissionais de psicologia e serviço social, como podemos dar a DIGINIDADE que queremos para 
+        essas pessoas de situação vulnerável. seguindo os trabalhos, vamos realizar oficinas e workshops para jovens e desempregados que 
+        queiram aprender algo novo para se realocar ou entrar no mercado de trabalho. Na conclusão dessas ações, vamos buscar um emprego para
+         a pessoa, 
+        promovendo novamente a DIGNIDADE, que tanto queremos desenvolver em todas as pessoas atendidas pelos PARCEIROS DO GU</p>
+    </div>
+  </section>
+
+
+  <section id="grid-one" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading"></h2>
+      <p class="grid-description"></p>
+
+      <div class="grid">
+        <article>
+          <h3>Missão</h3>
+          <p>Apoiar as necessidades da sociedade, realizar transformações sociais com desenvolvimento e melhoria da qualidade de vida através de ações sociais voltando a dignidade.</p>
+        </article>
+        <article>
+          <h3>Visão</h3>
+          <p>Ser reconhecida como também um exemplo a ser seguido com conceito em credibilidade e transparência com transformação para sociedade.</p>
+        </article>
+        <article>
+          <h3>Valores</h3>
+          <p>Conceitos básicos de valor e acesso demografico; Dignidade; Confiança; Humanização; Transparência; Respeito.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Vamos promover dignidade para a pessoa ajudada:</h2>
+      <p class="grid-description">Criando formas de que essa ajuda seja para que a pessoa cresça, seja profissional, seja estrutural, possibilitando a pessoa atendida,ter dignidade retomada, e construir assim cidadão que vão com os seus atos melhorar a sociedade como um todo.</p>
+
+      <div class="grid">
+        <div class="gallery-img">
+          <img src="./assets/img/Design sem nome.png" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="./assets/img/22.png" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="./assets/img/3.png" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="./assets/img/4.png" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="./assets/img/5.png" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="./assets/img/6.png" alt="random image from unsplash" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Seja um parceiro
+        Apoie nossa causa</h2>
+      <p>Conheça o Clube de descontos Parceiros do Gu, onde você contribuindo com apenas
+         R$ 19,90 por mês, tem acesso a plataforma com mais de 24 mil lojas e descontos de até 70% 
+         nos produtos. E o melhor! O valor dessa mensalidade é revertida totalmente
+         para ONG Parceiros do Gu e suas obras sociais.</p>
+
+      <div class="responsive-table">
+        
+        <a href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c938084822156eb018236318f4c066b" class="home-btn">Seja um associado</a>
+          
+<img src="./assets/img/Cópia de parceiros do gu parede site.png" width="500" height="500" alt="">
+
+             
+          
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Vamos falar sobre como podemos trabalhar juntos por um mundo melhor!</h2>
+        
+
+        <div class="links">
+          
+          <a href="https://www.instagram.com/ongparceirosdogu/" target="_blank" class='bx bxl-instagram' style=" height: 30px;
+          width: 30px; line-height: 15px; font-size: 5rem; margin:.5rem; border-radius: 50%; color:#FFCC00;"></a>
+        </div>
+<br>
+        <div class="links">
+          <a href="https://api.whatsapp.com/send?phone=5519971061260" target="_blank" class='bx bxl-whatsapp' style=" height: 30px;
+          width: 30px; line-height: 15px; font-size: 5rem; margin:.5rem; border-radius: 50%; color:#FFCC00;"></a>
+        </div>
+<br>
+<div class="links">
+          <a href=mailto:parceirosdogu@gmail.com class='bx bx-envelope'  style=" height: 30px;
+          width: 30px; line-height: 15px; font-size: 5rem; margin:.5rem; border-radius: 50%; color:#FFCC00;" ></a>
+        
+        </div>
+          
+
+        
+
+
+         
+
+    
+      </div>
+      <div class="intro-img">
+        <img src="./assets/img/contato-removebg-preview.png" alt="Logo de HTML, CSS e JS.">
+      </div>
+      
+    </div>
+  </section>
+
+
+  
+  <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
